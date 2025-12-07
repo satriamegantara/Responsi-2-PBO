@@ -33,6 +33,6 @@ class Pengguna {
         System.out.printf("=== Informasi Kesehatan Pengguna ===\nUmur: "+umur+" tahun\nBerat: "+berat+" kg\nTinggi: "+tinggi+" cm\nBMI: "+BMI+"\n");
         tampilKategori(BMI);
         hitungKalori();
-        System.out.println("Kebutuhan Kalori: "+kalori+"kal/hari\n==================================\n\n--- Demonstrasi Konstanta Final ---\nNilai faktor aktivitas: "+faktorAktivitas+"Faktor aktivitas bersifat final (konstan)\nArtinya nilai ini tidak bisa diubah setelah diinisialisasi");
+        System.out.println("Kebutuhan Kalori: "+kalori+"kal/hari\n==================================\n\n--- Demonstrasi Konstanta Final ---\nNilai faktor aktivitas: "+faktorAktivitas+"\nFaktor aktivitas bersifat final (konstan)\nArtinya nilai ini tidak bisa diubah setelah diinisialisasi");
     }
 }

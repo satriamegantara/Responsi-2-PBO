@@ -15,7 +15,7 @@ class mesinTraktorListrik extends mesinTraktor {
     @Override
     double nilaiPerforma() {
         // Override performa traktor listrik
-        return(tenagaHP * 0.9) + (kapasitasBaterai * 5.5);
+        return(tenagaHP*1.1) + (kapasitasBaterai*5);
     }
 
     @Override

@@ -15,7 +15,7 @@ class mesinTraktor extends defaultMesin {
     @Override
     double nilaiPerforma() {
         // Override performa traktor
-        return tenagaHP * 0.9 + kapasitasTarik * 16;
+        return (tenagaHP*0.9) + (kapasitasTarik * 10);
     }
 
     @Override

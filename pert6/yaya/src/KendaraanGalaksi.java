@@ -47,7 +47,7 @@ public abstract class KendaraanGalaksi {
     // Format:
     // "[namaKendaraan] | Energi: [levelEnergi]% | Kapasitas: [kapasitasPenumpang] awak"
     public final void tampilStatus(){
-        System.out.println(namaKendaraan+" | Energi: "+levelEnergi+"% | Kapasitas: "+kapasitasPenumpang+" awak\n");
+        System.out.println(namaKendaraan+" | Energi: "+levelEnergi+"% | Kapasitas: "+kapasitasPenumpang+" orang\n");
     }
 
     // ==========================================================

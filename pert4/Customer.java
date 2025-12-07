@@ -9,6 +9,6 @@ class Customer {
 
     void tampilkanInfo() {
         // TODO: tampilkan data customer
-        System.out.println("Nama: "+nama+" | ID: "+id+" | Total Belanja: Rp"+total);
+        System.out.println("Nama: "+nama+" | ID: "+id+" | Total Belanja: Rp "+total);
     }
 }

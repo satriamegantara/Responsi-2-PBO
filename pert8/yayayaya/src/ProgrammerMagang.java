@@ -79,7 +79,7 @@ public class ProgrammerMagang implements KaryawanKontrak, AksesSistem {
     // LOGIKA: Ubah sedangLogin = false dan tampilkan pesan logout.
     public void logout() {
         sedangLogin = false;
-        System.out.println(nama+" Berhasil logout.");
+        System.out.println(nama+" berhasil logout.");
     }
 
     // @Override: IMPLEMENTASIKAN getRoleAkses() (Override Default Method)

@@ -7,3 +7,7 @@ Apa yang terjadi jika kita mencoba mengubah nilai suatu konstanta setelah objek 
 Bagaimana cara mendefinisikan konstanta dalam bahasa Java?
 
 Jawaban
+-function itu mengembalikan nilai, sementara prosedur tidak mengembalikan nilai
+-final penting jika ada nilai yang selama runtime tidak berubah atau bersifat konstan. keuntungannya, user atau siapapun tidak bisa mengubah variabel final ini
+-muncul error "java: cannot assign a value to final variable faktorAktivitas"
+-final tipe_data nama_variabel_final = nilai_variabelnya

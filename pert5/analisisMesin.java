@@ -3,10 +3,10 @@ class analisisMesin {
 
         defaultMesin[] array={
             new mesinMotor("Honda Supra X", 125, "Bebek"),
-            new mesinTraktor("Kubota MX5200", 520, 4.5),
-            new mesinTraktorListrik("EcoTrac", 300, 4.2, 70),
+            new mesinTraktor("Kubota MX5200", 520, 5),
+            new mesinTraktorListrik("EcoTrac Z900", 300, 4.2, 70),
             new mesinMotor("Yamaha R25", 250, "Sport"),
-            new mesinTraktorListrik("Volta FarmX", 300, 3.5, 80)
+            new mesinTraktorListrik("Volta FarmX", 200, 3.5, 80)
         };
 
         System.out.println("=== DATA MESIN MEGATECH ===");

@@ -47,7 +47,7 @@ public class PesawatTempur extends KendaraanGalaksi {
     public void jelajah(int jarak){
         int cek=getLevelEnergi();
         if (cek<3*jarak){
-            System.out.println("Gagal Brok");
+            System.out.println("Energi tidak mencukupi untuk menjelajah sejauh 30 km.");
         }else{
             setLevelEnergi(cek-3*jarak);
             System.out.println("Pesawat tempur menjelajah sejauh "+jarak+ "km.");
