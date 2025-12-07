@@ -6,3 +6,9 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 3. Apa tujuan penggunaan keyword "implements" pada sebuah class?
 4. Apakah sebuah class dapat mengimplementasikan lebih dari satu interface? Jelaskan dan berikan contoh sederhana.
 5. Jika sebuah class mengimplementasikan interface, apa yang terjadi jika class tersebut tidak mengimplementasikan semua method dari interface tersebut?
+
+-interface hanya berisi method "kosongan" dan konstanta. class berisi method biasa dan atribut biasa
+-karena interface hanya sebuah blueprint, hanya mendefiniskan apa yang harus dipunyai oleh subclass
+-untuk mengimplementasikan interface
+-bisa, contohnya di soal pertemuan 8
+-maka terjadi error

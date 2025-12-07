@@ -6,3 +6,10 @@ Setelah anda menyelesaikan kode, tolong jawab pertanyaan dibawah ini ya =
 3. Apa perbedaan mendasar antara extends dan implements dalam konteks interface, jika dilihat secara konsep tanpa melihat contoh kode?
 4. Apa alasan diperkenalkannya default method dalam interface, dan bagaimana fitur ini memengaruhi keberlangsungan (compatibility) suatu sistem yang sudah berjalan?
 5. Bagaimana konsep multiple interface memperluas fleksibilitas desain tanpa menimbulkan masalah kompleksitas yang biasa muncul pada multiple inheritance?
+
+-interface bertujuan untuk membentuk blueprint bagi subclass nya. interface mewajibkan subclass untuk menggunakan semua method yang dimiliki interface ke subclass
+-Makna konseptual dari kemampuan ini adalah fleksibilitas total dalam desain dan pemisahan peran (separation of concerns).
+-extends adalah pewarisan. implements adalah pemenuhan kontrak
+-Default method diperkenalkan di Java 8 untuk menyelesaikan masalah kompatibilitas mundur (backward compatibility).
+-Multiple interface menawarkan fleksibilitas "punya banyak kemampuan" tanpa kekacauan "punya banyak orang tua".
+Masalah utama multiple inheritance (misalnya di C++) adalah "Diamond Problem": Ketika satu kelas mewarisi dua kelas induk yang sama-sama mewarisi satu kakek, bingung mau pakai metode yang mana.

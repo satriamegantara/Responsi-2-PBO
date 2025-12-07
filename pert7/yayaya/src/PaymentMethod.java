@@ -1,0 +1,12 @@
+public interface PaymentMethod {
+
+    // TODO: Tambahkan method abstract berikut:
+    // - processPayment(): digunakan untuk memproses pembayaran
+    // - getPaymentDetails(): mengembalikan informasi pembayaran
+    // - getTransactionFee(): mengembalikan biaya transaksi
+    // - getBalance(): mengembalikan saldo
+    abstract void processPayment();
+    abstract void getPaymentDetails();
+    abstract void getTransactionFee();
+    abstract void getBalance();
+}

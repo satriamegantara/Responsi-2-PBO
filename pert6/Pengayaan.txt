@@ -6,3 +6,9 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 3. Mengapa subclass wajib mengimplementasikan semua abstract method dari parent class?
 4. Mengapa abstract method tidak boleh memiliki isi implementasi di dalam abstract class?
 5. Bagaimana abstract class dapat mendukung konsep polimorfisme, dan mengapa objek yang direferensikan melalui tipe abstract class tetap dapat menjalankan perilaku berbeda pada masing-masing subclass?
+
+-adalah kelas yang tidak bisa diinstansiasi secara langsung, harus diturunkan dulu. sebagai blueprint atau kontrak
+-abstrak tidak bisa diinstansiasi secara langsung.
+-karena abstrak adalah kontrak yang harus dipenuhi oleh subclass
+-karena kalo diisi, gajadi abstrak dong
+-karena abstrak adalah salah satu pilar dari polimorfisme

@@ -8,3 +8,8 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 5. Mengapa kita perlu menggunakan Inheritance? Apa keuntungan utamanya dibandingkan membuat dua class yang terpisah sama sekali (misal class Karyawan dan class Manajer dibuat terpisah tanpa hubungan)?
 
 Jawaban:
+-extends digunakan ketika ingin menurunkan class ke class lain (superclass ke subclass). subclass menurunkan method dan state dari superclass
+-overloading terjadi ketika terdapat nama method yang sama namun dengan parameter yang berbeda. overriding terjadi ketika isi method turunan dari superclass diubah di subclass
+-super digunakan untuk mengambil nilai variabel dari superclass ke subclass
+-error. solusinya adalah menggunakan method setter dan getter
+-untuk mengurangi redundansi/duplikasi data/class, memudahkan dalam perawatan kode, modularisasi kode

@@ -5,3 +5,9 @@ Jawablah pertanyaan berikut:
 3. Apa perbedaan override dan overload?
 4. Apa keuntungan menggunakan polimorfisme dalam sistem inventaris seperti contoh di atas?
 5. Bagaimana cara kerja dynamic dispatch pada Java saat memanggil method override?
+
+-satu objek bisa berbentuk banyak. class yang di override mewarisi semua atribut dan method dari parent class
+-karena DefaultMesin menjadi superclass dari mesinMotor dan mesinTraktor, sehingga semua objek mesinMotor dan mesinTraktor merupakan objek dari defaultMesin
+-override menggunakan nama method yang sama namun ketika diturunkan ke subclass, isinya diubah/diganti. overloading menggunakan nama method yang sama, namun memakai parameter yang berbeda
+-kode menjadi lebih singkat, mengurangi redundansi kode, modularisasi kode
+-Dynamic dispatch (atau late binding / runtime polymorphism) adalah mekanisme yang digunakan Java Virtual Machine (JVM) untuk menentukan metode mana yang harus dieksekusi ketika terjadi override.
